@@ -1,6 +1,8 @@
-# JS-Assignment-1
+# JS-Assignments
 This is an assignment for the Blockchain course.
 This repository contains the solution to 3 problem statements
+
+# JS-Assignment-1
 1. Write a program to find whether a given year is a leap year or not.
 
 2. Write a JavaScript program to convert temperatures to and from Celsius,
