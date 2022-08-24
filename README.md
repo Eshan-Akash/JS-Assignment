@@ -1,5 +1,5 @@
 # JS-Assignments
-This is an assignment for the Blockchain course.
+These are the assignments for the Blockchain course.
 This repository contains the solution to 3 problem statements
 
 # JS-Assignment-1
