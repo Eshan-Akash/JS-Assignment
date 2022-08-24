@@ -1,6 +1,5 @@
 # JS-Assignments
 These are the assignments for the Blockchain course.
-This repository contains the solution to 3 problem statements
 
 # JS-Assignment-1
 1. Write a program to find whether a given year is a leap year or not.
