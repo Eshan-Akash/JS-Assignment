@@ -12,12 +12,10 @@ factorial = (n)=>{
 }
 
 isPrime = (n) =>{
-    let c = 0;
-    for(let i = 0; i*i <= n; i++){
+    for(let i = 2; i*i <= n; i++){
         if(n % i == 0){
-            c++;
+            return false;
         }
-        if(c > 1) return false;
     }
     return true;
 }
