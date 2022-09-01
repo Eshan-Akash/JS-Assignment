@@ -27,7 +27,7 @@ class Cylinder{
     }
 
     getVolume(){
-        console.log(Math.PI * Math.pow(this.radius, 2) * this.height);
+        console.log((Math.PI * Math.pow(this.radius, 2) * this.height).toFixed(4));
     }
 }
 
@@ -41,7 +41,8 @@ class Sphere{
     }
 
     getVolume(){
-        console.log((4 * Math.PI * Math.pow(this.radius, 3))/3);
+        let v = (4 * Math.PI * Math.pow(this.radius, 3))/3
+        console.log(v.toFixed(4));
     }
 }
 
@@ -56,7 +57,8 @@ class Cone{
     }
 
     getVolume(){
-        console.log((Math.PI * Math.pow(this.radius, 2) * this.height) / 3);
+        let v = (Math.PI * Math.pow(this.radius, 2) * this.height) / 3;
+        console.log(v.toFixed(4));
     }
 }
 
