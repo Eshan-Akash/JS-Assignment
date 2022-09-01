@@ -17,7 +17,7 @@ matchHouses(87) ➞ 436
 // let x = 1;
 // let x = 3;
 // let x = 4;
-// let x = 87;
+let x = 87;
 
 matchHouses = (x) => {
     return x * 5 +1;        // (x*6 - (x-1))
