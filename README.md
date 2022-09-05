@@ -78,7 +78,7 @@ Formulas for volumes of the shapes-
 1) Cylinder- Volume = πr^2h
 where r is the radius and h is the height of the cylinder.
 
-2)Sphere- Volume= 4/3πr^3
+2) Sphere- Volume= 4/3πr^3
 where r is the radius
 
 3) Cone- Volume= πr^2h/3
@@ -94,8 +94,7 @@ Rectangle class. The operations are:
     ○ It can use the Rectangle class' area method to print the area of a Square object.
 
 2. Write a javascript function find_largest to return the nth largest number in an array.
-eg- given an array of integers- [3,45,6,7,23,5,7,8]
-
+eg- given an array of integers - [3,45,6,7,23,5,7,8]. 
 find_largest(3) will return third largest number from the above array which is 8.
 
 3. Write a JavaScript program which accept a number as input in the function parameter and insert dashes (-) between each two even numbers.
