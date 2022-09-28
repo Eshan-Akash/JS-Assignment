@@ -133,3 +133,13 @@ c) Convert the String into lower case.
 d) Break the string into two halves and swap them.
 e) Count the repeating characters.
 f) Reverse the string
+
+# JS-Assignment-8 https://drive.google.com/file/d/1WTUcprsunZdM0fAD81dO8afCs2f5FuE0/view
+1. Can we put duplicate values in the set object?
+
+2. Write the syntax for
+a) Creating new set object
+b) Adding new element to set object
+c) Deleting element from set object
+
+3. Create a set object with four random numbers from 0 to 10. Check if this newly created set object has 8 in it. Use set object methods.
