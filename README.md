@@ -143,3 +143,33 @@ b) Adding new element to set object
 c) Deleting element from set object
 
 3. Create a set object with four random numbers from 0 to 10. Check if this newly created set object has 8 in it. Use set object methods.
+
+# JS-Assignment-9 https://drive.google.com/file/d/1Ulf17Hrv2k76H0Q1T4Ilo5QoAg_W4ml5/view
+
+1. Carefully observe this example.
+a) Is the InnerFunction() a closure?
+b) What is output of this program
+
+function OuterFunction()
+{ var outerVariable = 100;
+function InnerFunction() {
+alert(outerVariable);
+}
+return InnerFunction;
+}
+var innerFunc = OuterFunction();
+innerFunc();
+
+2. What is the difference between a closure and a scope ?
+
+3. What is a lexical scope and how is it related to closure?
+
+4. Output of following closure ?
+for (var i = 0; i < 3; i++) {
+    setTimeout(function log() {
+        console.log(i); // What is logged?
+    }, 1000);
+}
+
+
+
