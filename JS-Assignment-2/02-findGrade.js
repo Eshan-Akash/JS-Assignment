@@ -9,33 +9,30 @@ f. “E grade” if the marks are between 40 and 50.
 g. “Student has failed” if the marks are between 0 and 40.
 h. Else output “Invalid marks”. */
 
-// let marks = 28;
-let marks = 78;
-switch(Math.floor(marks/10)){
-    case 10:
-    case 9: 
-        console.log("S grade");
-        break;
-    case 8: 
-        console.log("A grade");
-        break;
-    case 7: 
-        console.log("B grade");
-        break;
-    case 6: 
-        console.log("C grade");
-        break;
-    case 5: 
-        console.log("D grade");
-        break;
-    case 4: 
-        console.log("E grade");
-        break;
-    case 3: 
-    case 2: 
-    case 1: 
-    case 0: 
-        console.log("Student has failed");
-        break;
-    default: console.log("Invalid marks");
+let findGrade = (marks) => {
+    switch(Math.floor(marks/10)){
+        case 10:
+        case 9: 
+            return "S grade";
+        case 8: 
+            return "A grade";
+        case 7: 
+            return "B grade";
+        case 6: 
+            return "C grade";
+        case 5: 
+            return "D grade";
+        case 4: 
+            return "E grade";
+        case 3: 
+        case 2: 
+        case 1: 
+        case 0: 
+            return "Student has failed";
+        default: return "Invalid marks";
+    }
 }
+
+let marks = 78;
+// let marks = 28;
+console.log(findGrade(marks));
