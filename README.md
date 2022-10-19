@@ -308,3 +308,319 @@ let n = arr.length;
 thirdLargest(arr, n);
 ```
 
+## JS-Assignment-12 
+1. Write a JavaScript program to map Employee Records according to Employee
+IDs.
+```sh
+Employee: { id, name, salary }
+a) Print an array of all employee ids
+b) Print count of employees
+c) Print the name of the employee according to their id { key: value }
+d) Store the salaries of all employees in an array
+e) Calculate the average salary the company is paying to its employees
+Sample Input:
+"id": [ 67, 48, 29 ]
+"name": [ "Hitanshu", “Ninad”, “Amandeep” ]
+"salary": [ 75000, 82000, 98000 ]
+Output:
+[ 67, 48, 29 ]
+3
+67: Hitanshu
+48: Ninad
+29: Amandeep
+[ 75000, 82000, 98000 ]
+85000
+```
+
+2. Write a program in JavaScript to map the student ids, names and scores.
+a) Add data for 3 students (use map functions)
+b) Get Student Names using map functions
+c) Delete Student Scores using map functions
+d) Display 1 parameter (only value), 2 parameters (value + key), and 3 parameters (value + key + map) for the student
+```sh
+Sample Input:
+"id": [ 1, 2, 3 ]
+"name": [ 'Hitanshu', 'Ninad', 'Amandeep' ]
+"scores": [ 90, 88, 92 ]
+
+Output:
+[ 'Hitanshu', 'Ninad', 'Amandeep' ]
+-----one parameter-----
+[ 1, 2, 3 ]
+[ 'Hitanshu', 'Ninad', 'Amandeep' ]
+
+[ 90, 88, 92 ]
+-----two parameter-----
+id 1, 2, 3
+name Hitanshu,Ninad,Amandeep
+scores 90,88,92
+-----three parameter-----
+id 1, 2, 3
+Map(3) {
+'id' => [ 67, 48, 29 ],
+'name' => [ 'Hitanshu', 'Ninad', 'Amandeep' ],
+'scores' => [ 90, 88, 92 ]
+}
+name Hitanshu,Ninad,Amandeep
+Map(3) {
+'id' => [ 1, 2, 3 ],
+'name' => [ 'Hitanshu', 'Ninad', 'Amandeep' ],
+'scores' => [ 90, 88, 92 ]
+}
+scores 90,88,92
+Map(3) {
+'id' => [ 1, 2, 3 ],
+'name' => [ 'Hitanshu', 'Ninad', 'Amandeep' ],
+'scores' => [ 90, 88, 92 ]
+}
+```
+
+3. Write a JavaScript program to iterate over an array inputted by the user using mapping. Perform the square of all elements in the original array, store the squares in a new array and make a mapping for the squares and display it.
+```sh
+Sample Input:
+[ 1, 2, 3, 4, 5 ]
+Explanation:
+Original Array = [ 1, 2, 3, 4, 5 ]
+New Array = [ 1, 4, 9, 16, 25 ]
+Mapping = squares => [ 1, 4, 9, 16, 25 ]
+Output:
+[ 1, 4, 9, 16, 25 ]
+```
+
+## JS-Assignment-13 
+1. Write a JavaScript program to get an array from the user and return the:
+a) Sum of all elements in the array using reduce()
+b) Average of all elements in the array using reduce()
+```sh
+Sample Input:
+[ 1, 2, 3, 4, 5 ]
+Output:
+15
+```
+
+2. Write a JavaScript program to
+a) Calculate grades on basis of marks
+>90 = A
+>80 = B
+>70 = C
+>60 = D
+>50 = E
+else = F
+b) Map the grades of each student
+c) Group students according to the grades they have received and display.
+```sh
+Sample Input:
+let students = [
+{ name: "John", marks: “92” },
+{ name: "Oliver", marks: “85” },
+{ name: "Michael", marks: “79” },
+{ name: "Dwight", marks: “95”},
+{ name: "Oscar", marks: “64” },
+{ name: "Kevin", marks: “48” },
+];
+Output:
+{
+'A': [ { name: "John", grade: “A” },
+{ name: "Dwight", grade: “A” } ],
+'B': [ { name: "Oliver", grade: “B” } ],
+'C': [ { name: "Michael", grade: “C” } ],
+'D': [ { name: "Oscar", grade: “D” } ],
+'E': [ ],
+'F': [ { name: "Kevin", grade: “F” } ],
+}
+```
+
+## JS-Assignment-14 
+1. Write a JavaScript program to:
+a) filter employees according to department = IT
+b) filter employees who earn a salary < 65000
+```sh
+Sample Input:
+let employees = [
+{ "id": 1,
+"name":"Abhinav",
+"department":"IT",
+"Salary":75000
+},
+
+{ "id": 2,
+"name":"Gaurav",
+"department":"Sales",
+"Salary":52000
+},
+
+{"id": 3,
+"name":"Raj",
+"department":"IT",
+"Salary":64000
+}]
+
+Output:
+[{
+"id": 1,
+"name":"Abhinav",
+"department":"IT",
+"Salary":75000
+},
+
+{
+
+"id": 3,
+"name":"Raj",
+"department":"IT",
+"Salary":64000
+}
+]
+
+[{
+"id": 2,
+"name":"Gaurav",
+"department":"Sales",
+"Salary":52000
+},
+
+{
+"id": 3,
+"name":"Raj",
+"department":"IT",
+"Salary":64000
+}]
+```
+
+2. Write a JavaScript program to filter the hospitals according to:
+a) Number of Beds > 200
+b) Availability of Beds = Yes
+c) Location = Pune
+```sh
+Sample Input:
+let hospitals = [
+{
+"id": 1,
+"name":"Hospital A",
+"location":"Delhi",
+"noOfBeds":450,
+“availability”:”Yes”
+},
+{
+"id": 2,
+"name":"Hospital B",
+
+"location":"Pune",
+"noOfBeds":150,
+“availability”:”No”
+},
+{
+"id": 3,
+"name":"Hospital
+C",
+"location":"Pune",
+"noOfBeds":350.
+“availability”:”Yes”
+}]
+Output:
+[
+{
+"id": 1,
+"name":"Hospital
+A",
+"location":"Delhi",
+"noOfBeds":450,
+“availability”:”Yes”
+},
+{
+"id": 3,
+"name":"Hospital
+C",
+"location":"Pune",
+"noOfBeds":350,
+“availability”:”Yes”
+}
+]
+[
+{
+"id": 1,
+"name":"Hospital
+A",
+"location":"Delhi",
+
+"noOfBeds":450,
+“availability”:”Yes”
+},
+{
+"id": 3,
+"name":"Hospital
+C",
+"location":"Pune",
+"noOfBeds":350,
+“availability”:”Yes”
+}
+]
+[
+{
+"id": 2,
+"name":"Hospital B",
+"location":"Pune",
+"noOfBeds":150,
+“availability”:”No”
+},
+{
+"id": 3,
+"name":"Hospital
+C",
+"location":"Pune",
+"noOfBeds":350,
+“availability”:”Yes”
+}
+]
+```
+
+## JS-Assignment-15 
+1. Create a function that finds the maximum range of a triangle's third edge, where the side lengths are all integers.
+```sh
+Examples
+nextEdge(8, 10) ➞ 17
+nextEdge(5, 7) ➞ 11
+nextEdge(9, 2) ➞ 10
+```
+> Notes
+> ● (side1 + side2) - 1 = maximum range of third edge.
+> ● The side lengths of the triangle are positive integers.
+> ● Don't forget to return the result.
+
+2. The right shift operation is similar to floor division by powers of two. Write a function that mimics (without the use of >>) the right shift operator and returns the result from the two given integers. Try to solve this challenge by recursion.
+
+3. Create a function that takes numbers b and m as arguments and returns the second derivative of the function f(x) = ${x^b +x* (e^(b*m))}$ with respect to x evaluated at x=m, where b and m are constants.
+
+4. This Triangular Number Sequence is generated from a pattern of
+dots that form a triangle. The first 5 numbers of the sequence, or
+dots, are:
+1, 3, 6, 10, 15
+> This means that the first triangle has just one dot, the second one
+> has three dots, the third one has 6 dots and so on.
+> Write a function that returns the cumulative sum of the number of
+> all the previous (including current) dots when given its
+> corresponding triangle number of the sequence.
+```sh
+Examples
+triangle(1) ➞ 1
+triangle(6) ➞ 56 (1+3+6+10+15+21)
+```
+
+5. Given a total due and an array representing the amount of change in your pocket, determine whether or not you are able to pay for the item. Change will always be represented in the following order: quarters, dimes, nickels, pennies.
+```sh
+To illustrate: changeEnough([25, 20, 5, 0], 4.25) should yield true, since having 25 quarters, 20 dimes, 5 nickels and 0 pennies gives
+you 6.25 + 2 + .25 + 0 = 8.50.
+Examples
+changeEnough([2, 100, 0, 0], 14.11) ➞ false
+changeEnough([0, 0, 20, 5], 0.75) ➞ true
+changeEnough([30, 40, 20, 5], 12.55) ➞ true
+```
+> Notes
+> ● quarter: 25 cents / $0.25
+> ● dime: 10 cents / $0.10
+> ● nickel: 5 cents / $0.05
+> ● penny: 1 cent / $0.01
+
+
+
+
