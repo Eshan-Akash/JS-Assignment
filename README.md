@@ -84,10 +84,10 @@ let obj= new Cylinder(radius,height);
 obj.getVolume();
 
 Formulas for volumes of the shapes-
-1) Cylinder- Volume = $(πr^2h)$
+1) Cylinder- Volume = ${πr^2h}$
 where r is the radius and h is the height of the cylinder.
 
-2) Sphere- Volume= 4/3πr^3
+2) Sphere- Volume= ${4/3πr^3}$
 where r is the radius
 
 3) Cone- Volume= πr^2h/3
