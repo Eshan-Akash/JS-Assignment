@@ -1,7 +1,9 @@
 # JS-Assignments
 These are the assignments for the Blockchain course.
+- These assignment contains JavaScript Question that will give you idea of using JS and the oparations used in JS.
+- If you have learnt JS, this assignment will help you to ave a  hands on practice in JS.  
 
-# JS-Assignment-1
+## JS-Assignment-1
 1. Write a program to find whether a given year is a leap year or not.
 
 2. Write a JavaScript program to convert temperatures to and from Celsius, Fahrenheit.
@@ -12,7 +14,7 @@ Expected Output :
 
 3. Write a program to find the factorial of a number.
 
-# JS-Assignment-2
+## JS-Assignment-2
 1. Write a Javascript function to check whether a triangle is equilateral, isosceles or scalene.
 
 2. Write a function using switch case to find the grade of a student based on marks obtained
@@ -32,40 +34,47 @@ under 1000
 Range will be passed as 2 values in the function parameters. 
 eg- if it is needed to find the values for numbers 1-100, then function declaration can look like - function prime(1,100).
 
-# JS-Assignment-3
+## JS-Assignment-3
 1. Using for loops, write a Javascript program to output the following pattern -
+```sh
 1
 2 3
 4 5 6
 7 8 9 10
+```
 
 2. Write a program to find whether a given number is armstrong number or not.
 The Armstrong number is a number that is equal to the sum of cubes of its digits. 
 For example 0, 1, 153, 370, 371 and 407 are the Armstrong numbers. 
 Let's try to understand why 153 is an Armstrong number.
+```sh
 153 = (1*1*1)+(5*5*5)+(3*3*3) where:
 (1*1*1)=1
 (5*5*5)=125
 (3*3*3)=27
 So: 1+125+27=153
+```
 
 3. Write a program to find whether a given number is special number or not.
 If the sum of the factorial of digits of a number (N) is equal to the number itself, the number (N) is called a special number.
+```sh
 eg- 145 is a special number
 Logic- 1! + 4! + 5!= 1+24+120 i.e 145
+```
 
-# JS-Assignment-4
-This assignment will help you interpret mathematical relationships both algebraically and geometrically.
-Refer the Link -  https://drive.google.com/file/d/1mEBvdrL_pJvI8o-OsbRWSJevVbAhZrOf/view  . 
+## JS-Assignment-4 https://drive.google.com/file/d/1mEBvdrL_pJvI8o-OsbRWSJevVbAhZrOf/view
+This assignment will help you interpret mathematical relationships both algebraically and geometrically. 
 Create a function that takes a number (step) as an argument and returns the number of matchsticks in that step. See step 1, 2 and 3 in the image above.
 Take input from the user in the function parameter and return the output using the return statement.
 
+```sh
 examples-
 matchHouses(1) ➞ 6
 matchHouses(4) ➞ 21
 matchHouses(87) ➞ 436
+```
 
-# JS-Assignment-5
+## JS-Assignment-5
 1) Write a JavaScript program to get the volume of a Cylinder, Sphere and
 Cone with four decimal places using objects and classes.
 Create classes for volumes for each geometric shape which returns the output using the getVolume() method.
@@ -75,7 +84,7 @@ let obj= new Cylinder(radius,height);
 obj.getVolume();
 
 Formulas for volumes of the shapes-
-1) Cylinder- Volume = πr^2h
+1) Cylinder- Volume = $(πr^2h)$
 where r is the radius and h is the height of the cylinder.
 
 2) Sphere- Volume= 4/3πr^3
