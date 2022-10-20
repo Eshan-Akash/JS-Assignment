@@ -1,0 +1,3 @@
+3. Are function generators iterable in JavaScript?
+
+Solution : Generators are functions having an yield keyword. Calling a generator function creates an iterable. Since it is an iterable so it can be used with next()

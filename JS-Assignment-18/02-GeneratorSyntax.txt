@@ -1,0 +1,10 @@
+2. What is the syntax of a generator?
+
+Solution: 
+As the only difference, the generator function is denoted by an asterisk (*) after the function keyword.
+
+function *myfunction() { }
+
+Yield operator: In the yield statement, function execution is suspended and a value is returned to the caller. In this case, enough state is retained for the function to resume where it left off.
+
+JavaScript next method: The next() method will resume the execution of the generator function when it receives an argument, replacing the yielded expression where the execution was paused with the argument from the next() method. 

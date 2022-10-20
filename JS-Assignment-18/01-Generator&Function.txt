@@ -1,0 +1,41 @@
+1. What is the difference between a generator and a function?
+
+Solution : Generator functions are defined as the normal function, but to identify the difference between the normal function and generator function is that in the normal function, we use the return keyword to return the values, and in the generator function, instead of using the return, we use yield to execute our iterator
+
+The difference between a generator and a regular function is:
+
+- In response to a generator call, its code doesn’t run. In its place, it returns a special object called a ‘Generator Object’ to manage the execution.
+- At any time, the generator function can return (or yield) the control back to the caller.
+- The generator can return (or yield) multiple values according to the requirement, unlike a regular function.
+
+I/P:
+<script>
+    function* generator() {
+        yield 1;
+        yield 2;
+        yield 3;
+    }
+    let obj = generator();
+    console.log(obj.next());
+    console.log(obj.next());
+    console.log(obj.next());
+    console.log(obj.next());
+</script>
+
+O/P:
+{
+  done: false,
+  value: 1
+}
+{
+  done: false,
+  value: 2
+}
+{
+  done: false,
+  value: 3
+}
+{
+  done: true,
+  value: undefined
+}
