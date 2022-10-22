@@ -1,0 +1,13 @@
+/* What will the output be?
+
+var p = new Promise((resolve, reject) => {
+    reject(Error('The Fails!'))
+})
+.catch(error => console.log(error))
+.then(error => console.log(error))
+*/
+
+
+// O/p
+// Error: The Fails!
+// undefined
