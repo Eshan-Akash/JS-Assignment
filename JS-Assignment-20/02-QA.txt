@@ -1,0 +1,35 @@
+Is it possible to use async/await with promise chains? If yes,
+how can this be achieved?
+
+Solution : Yes it is possible.
+
+async function wth() {
+        let delhiWeather = new Promise((resolve, reject) => {
+                setTimeout(() => {
+                        resolve("27 Deg")
+                }, 3000)
+        })
+
+        let bangaloreWeather = new Promise((resolve, reject) => {
+                setTimeout(() => {
+                        resolve("21 Deg")
+                }, 6000)
+        })
+
+
+        console.log("Fetching Delhi Weather Please wait ...")
+        let delhiW = await delhiWeather
+        console.log("Fetched Delhi Weather: " + delhiW)
+        console.log("Fetching Bangalore Weather Please wait ...")
+        let bangaloreW = await bangaloreWeather
+        console.log("Fetched Bangalore Weather: " + bangaloreW)
+        return [delhiW, bangaloreW]
+}
+
+let a = wth()
+console.log(a)
+
+
+
+
+https://www.youtube.com/watch?v=bLre6Uf4Op0

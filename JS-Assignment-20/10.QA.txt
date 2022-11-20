@@ -1,0 +1,4 @@
+In which scenarios would you use synchronous code instead of
+asynchronous code?
+
+Sol: When the task is dependent on the previous tasks

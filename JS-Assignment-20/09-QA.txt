@@ -1,0 +1,4 @@
+What is the best way to avoid deadlocks when using
+async/await?
+
+Sol: use async all the way down. Never block on tasks yourself. 

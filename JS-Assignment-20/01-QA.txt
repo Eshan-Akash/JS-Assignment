@@ -1,0 +1,4 @@
+1. How does async/await help with performance and scalability? 
+
+It help functions to execute parallely. So one function does not block another function. 
+With async/await your async operation doesn't need thread time, thus you give more time for other threads of your application to do job. For instance your application (non-UI) can still make HTTP calls, and all you need is just wait for the response. This is one of the cases when benefit of using async/await is big.
